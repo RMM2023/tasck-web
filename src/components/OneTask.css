@@ -1,0 +1,48 @@
+.one-tasck-panel{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 25% 10%;
+    background: linear-gradient(to bottom right, #A3F4FF, #FDDFFF);
+}
+
+.one-tasck-panel.p{
+    font-size: 24px;
+}
+
+.line-date{
+    width: 90%;
+    height: 1%;
+    color: white;
+}
+
+.date{
+    font-size: 20px;
+    color: gray;
+}
+
+.name-tasck{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+}
+
+.name-tasck{
+    flex-direction: row;
+}
+
+.name-tasck{
+    text-align: center;
+}
+
+.button-state{
+    align-items: flex-end;
+}
+
+.icon-delete{
+    align-items: end;
+}

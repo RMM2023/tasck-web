@@ -1,0 +1,18 @@
+.panel-status{
+    width: auto;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.waiting{
+    border-left: 4px #ff0000;
+}
+
+.in-progress{
+    border-left: 4px #ffa500;
+}
+
+.done{
+    border-left: 4px #008000;
+}

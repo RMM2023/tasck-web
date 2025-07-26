@@ -1,0 +1,12 @@
+.no_tascks{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    background-color: #22AB74 10%;
+}
+
+.icon-tasc{
+    width: 10%;
+    height: 10%;
+}
