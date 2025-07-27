@@ -1,7 +1,9 @@
 import React from "react";
-import '/.PanelTascks.css';
+import panelTascks from '/.PanelTascks.css';
+import oneTasck from "./OneTask.js";
 
 const PanelTascks = () => {
+    const oneTasck = () => (<oneTasck/>)
     return(
         <div className="no_tascks">
                 <h3>Нет задач</h3>

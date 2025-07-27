@@ -1,5 +1,6 @@
 import React from "react";
-import './OneTasck.css';
+import oneTasck from './OneTasck.css';
+import statusPanel from "./StatusPanel.js";
 
 
 
@@ -10,7 +11,7 @@ const OneTasck = ({tasck, onUpdateStatus, onDeleteTasck}) => {
     {value: 'in_progress', label: 'Выполнено', color: '#008000'}
 ];
 
-    if(tascks.leght === 0){
+    if(tasck.leght === 0){
         return(
             <div className="one-tasck-panel">
                 <h3>Нет задач</h3>
@@ -22,7 +23,9 @@ const OneTasck = ({tasck, onUpdateStatus, onDeleteTasck}) => {
         <div className="one-tasck-panel">
             <div className="name-tasck">
                 <h3 className="name-tasck"></h3>
-                <button className="button-state">${tasck.value}</button>
+                <button className="button-state">
+                    <statusPanel/>
+                    ${statusTask.value}</button>
                 <div className="icon-delete">🗑️</div>
             </div>
             <p className="task-description"></p>

@@ -1,5 +1,5 @@
 import React from "react";
-import './StatusPanel.css';
+import statusStile from './StatusPanel.css';
 
 const StatusPanel = () => {
     return(

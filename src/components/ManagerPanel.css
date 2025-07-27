@@ -1,0 +1,22 @@
+.manager-panel{
+    max-width: max-content;
+    min-height: auto;
+    background: linear-gradient(to start to top #A3F4FF, to center #FDDFFF, to end to bottom white);
+}
+
+.manager-panel-main{
+    width: 90%;
+    height: 10%;
+    background-color: #22AB74;
+}
+
+.search-tascks{
+    width: auto;
+    height: 3%;
+}
+
+.maneger-panel-min{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+}
