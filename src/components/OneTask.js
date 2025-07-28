@@ -1,11 +1,9 @@
 import React from "react";
-import oneTasck from './OneTasck.css';
+import './OneTask.css';
 import statusPanel from "./StatusPanel.js";
 
-
-
 const OneTasck = ({tasck, onUpdateStatus, onDeleteTasck}) => {
-    const statusTask = [
+    const statusTasck = [
     {value: 'waiting', label: 'В ожидании', color: '#ff0000'},
     {value: 'in_progress', label: 'В работе', color: '#ffa500'},
     {value: 'in_progress', label: 'Выполнено', color: '#008000'}
@@ -25,10 +23,10 @@ const OneTasck = ({tasck, onUpdateStatus, onDeleteTasck}) => {
                 <h3 className="name-tasck"></h3>
                 <button className="button-state">
                     <statusPanel/>
-                    ${statusTask.value}</button>
+                    ${statusTasck.value}</button>
                 <div className="icon-delete">🗑️</div>
             </div>
-            <p className="task-description"></p>
+            <p className="tasck-description"></p>
             <hr className="line-date"/>
             <div className="date"></div>
 

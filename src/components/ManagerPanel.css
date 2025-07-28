@@ -1,13 +1,16 @@
 .manager-panel{
-    max-width: max-content;
-    min-height: auto;
-    background: linear-gradient(to start to top #A3F4FF, to center #FDDFFF, to end to bottom white);
+    min-height: 100vh;
+    background-color: linear-gradient(to right #A3F4FF, #FDDFFF, white);
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .manager-panel-main{
     width: 90%;
     height: 10%;
     background-color: #22AB74;
+    border-radius: 0,050%;
 }
 
 .search-tascks{
@@ -19,4 +22,40 @@
     width: 90%;
     height: 90%;
     background-color: white;
+}
+
+.manager-line-tascks{
+    width: 90%;
+}
+
+.button-all-tascks{
+    width: 10%;
+    height: 3%;
+    border-radius: 25% 10%;
+    background-color: #22AB74 30%;
+    border: none;
+}
+
+.button-waiting{
+    width: 10%;
+    height: 3%;
+    border-radius: 25% 10%;
+    background-color: #22AB74 30%;
+    border: none;
+}
+
+.button-in-progress{
+    width: 10%;
+    height: 3%;
+    border-radius: 25% 10%;
+    background-color: #22AB74 30%;
+    border: none;
+}
+
+.button-done{
+    width: 10%;
+    height: 3%;
+    border-radius: 25% 10%;
+    background-color: #22AB74 30%;
+    border: none;
 }

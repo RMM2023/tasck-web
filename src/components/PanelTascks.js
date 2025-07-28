@@ -1,5 +1,5 @@
 import React from "react";
-import panelTascks from '/.PanelTascks.css';
+import './PanelTascks.css';
 import oneTasck from "./OneTask.js";
 
 const PanelTascks = () => {
