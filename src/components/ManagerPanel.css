@@ -1,6 +1,6 @@
 .manager-panel{
     min-height: 100vh;
-    background-color: linear-gradient(to right #A3F4FF, #FDDFFF, white);
+    background: linear-gradient(to right top, #A3F4FF, #FDDFFF, white);
     align-items: center;
     justify-content: center;
     
@@ -10,7 +10,7 @@
     width: 90%;
     height: 10%;
     background-color: #22AB74;
-    border-radius: 0,050%;
+    border-radius: 6% 6% 0 0;
 }
 
 .search-tascks{

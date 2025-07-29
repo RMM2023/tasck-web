@@ -1,4 +1,4 @@
-.no_tascks{
+.no-tascks{
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -6,7 +6,15 @@
     background-color: #22AB74 10%;
 }
 
-.icon-tasc{
+.icon-tasck{
     width: 10%;
     height: 10%;
+}
+
+.tascksList{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    background-color: #22AB74 10%;
 }
